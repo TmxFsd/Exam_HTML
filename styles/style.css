@@ -306,3 +306,46 @@ header
     line-height: 18px;
     color:#B2B2B2;
 }
+
+.sixth-section
+{
+    background: url("../images/start-screen-gradient-background.png") no-repeat center/cover;
+    padding:40px 40px 0px 40px;
+}
+.sixth-section-wraper
+{
+    display: flex;
+    justify-content:space-between;
+    gap:160px;
+}
+.sixth-section-text-wraper
+{
+    display:flex;
+    flex-direction: column;
+    /* gap:34px; */
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.sixth-section-main-text
+{
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45.5px;
+    letter-spacing: 0.51px;
+    color:#FFFFFF;
+}
+.sixth-section-plain-text
+{
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.51px;
+    color:#F1CDB3;
+}
+.sixth-section-info-text
+{
+    display: flex;
+    gap:20px;
+}
