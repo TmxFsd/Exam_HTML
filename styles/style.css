@@ -82,9 +82,11 @@ header
     display: flex;
     flex-direction: column;  
     gap:42px;
+    align-items:baseline;
 }
 .first-section-main-text
 {
+    width: 310px;
     font-family: Georgia;
     font-weight: 400;
     font-size: 44px;
@@ -112,7 +114,7 @@ header
     padding: 15px 45px;
     background-color: #F1CDB3;
     border-radius: 100px;
-    width: 207px;
+    /* width: 207px; */
 }
 
 .second-section
@@ -149,4 +151,63 @@ header
     font-size: 15px;
     line-height: 24px;
     color:#4C4C4C;
+}
+
+.third-section
+{
+    padding: 80px 40px 100px 40px;
+    background: #F6F6F6;
+}
+.third-section-wraper
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:60px;
+    
+    h2
+    {
+        text-align: center;
+    }
+}
+.third-section-card-wraper
+{
+    display: flex;
+    align-items: center;
+    gap:90px;
+}
+.third-section-card
+{
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+    background: #FAFAFA;
+    border-radius: 9px;
+}
+.third-section-card-text
+{
+    font-family: Georgia;
+    font-weight: 400;
+    line-height: 22.72px;
+    font-size: 20px;
+    color:#545454;
+}
+.third-section-card-button
+{
+    background: none;
+    outline: none;
+    border: 1px solid #F1CDB3;
+
+    cursor:pointer;
+
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22.1px;
+    font-family: Georgia;
+    padding: 15px 45px;
+    border-radius: 100px;
+    width: 207px;
+    margin-bottom: 30px;
 }
