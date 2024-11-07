@@ -1,0 +1,117 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+.container
+{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.first-section
+{
+    background: url("../images/start-screen-gradient-background.png") no-repeat center/cover;
+}
+
+header
+{
+    padding: 60px 40px;
+}
+
+.header-wraper
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Name-Wraper
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+.logo
+{
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35.2px;
+    color:#F1CDB3;
+}
+.sub-logo-text
+{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14.95px;
+    color: #FFFFFF;
+}
+
+.menu
+{
+    list-style: none;
+    display: flex;
+    gap:30px;
+
+    a
+    {
+        text-decoration: none;
+        color:#CDCDCD;
+
+        &.active
+        {
+            border-bottom: 3px solid #F1CDB3;
+        }
+    }
+}
+
+.first-section-wraper
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:60px 40px;
+    gap:42px;
+}
+.first-section-text-wraper
+{
+    display: flex;
+    flex-direction: column;  
+    gap:42px;
+}
+.first-section-main-text
+{
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 57.2px;
+    color:#FFFFFF;
+}
+.first-section-text
+{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color:#CDCDCD;
+}
+.first-section-text-wraper-button
+{
+    background: none;
+    border:none;
+    outline: none;
+    cursor:pointer;
+
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22.1px;
+    font-family: Georgia;
+    padding: 15px 45px;
+    background-color: #F1CDB3;
+    border-radius: 100px;
+    width: 207px;
+}
+
