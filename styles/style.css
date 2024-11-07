@@ -100,7 +100,7 @@ header
     line-height: 24px;
     color:#CDCDCD;
 }
-.first-section-text-wraper-button
+.section-text-wraper-button
 {
     background: none;
     border:none;
@@ -252,4 +252,57 @@ header
     line-height: 23px;
     color:#545454;
     letter-spacing:0.51px;
+}
+
+.fifth-section
+{
+    background: #F6F6F6;
+    padding: 80px 182px 100px 183px;
+}
+.fifth-section-wraper
+{
+    display: flex;
+    gap:30px;
+    align-items: center;
+}
+.fifth-section-text-wraper
+{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.fifth-section-sub-main-text
+{
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16.5px;
+    color:#545454;
+}
+.section-text-wraper-button.card-info
+{
+    display: flex;
+    border-radius: 9px;
+    align-items: center;
+    justify-content: space-evenly;
+    gap:15px;
+    padding: 10px 15px;
+    width:349px;
+}
+.fifth-section-credit-card-button-text
+{
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.51px;
+    color:#545454;
+}
+.fifth-section-text-legal-info
+{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 18px;
+    color:#B2B2B2;
 }
