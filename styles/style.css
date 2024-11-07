@@ -74,7 +74,7 @@ header
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:60px 40px;
+    padding:60px 40px 0px 40px;
     gap:42px;
 }
 .first-section-text-wraper
@@ -115,3 +115,38 @@ header
     width: 207px;
 }
 
+.second-section
+{
+    padding: 80px 40px 100px 40px;
+}
+.second-section-wraper
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.second-section-text-wraper
+{
+    display: flex;
+    flex-direction: column; 
+    width: 430px; 
+    gap:25px;
+}
+.second-section-main-text
+{
+    width: 370px;
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45.5px;
+    letter-spacing: 1.51px;
+    color:#545454;
+}
+.second-section-text
+{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color:#4C4C4C;
+}
